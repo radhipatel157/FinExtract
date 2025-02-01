@@ -1,6 +1,6 @@
 # Financial Data Extraction Pipeline
 
-This project is an OCR-based financial data extraction pipeline designed to process PDFs into structured financial data. The pipeline uses image processing, OCR, and AI models to detect, extract, and filter financial tables before final processing with the Langflow API.
+This project is financial data extraction pipeline designed to process PDFs into structured financial data. The pipeline uses image processing, OCR, and AI models to detect, extract, and filter financial tables before final processing with the Langflow API && AI model.
 
 ## Features
 - Converts PDF pages into images.
@@ -45,12 +45,20 @@ This project is an OCR-based financial data extraction pipeline designed to proc
 9. **Prediction and Output**
    - Use Langflow API for final financial data extraction.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/radhipatel157/The-Vision-Voyagers
-   cd financial-data-extraction
-   ```
+## Instructions to Upload and Run the Code in Google Colab
+
+1. **Download the Jupyter Notebook Files:**
+   - Download the two `.ipynb` files from this repository.
+
+2. **Upload the Files to Google Colab:**
+   - Go to [Google Colab](https://colab.research.google.com/).
+   - Click on the **File** menu, then select **Upload notebook**.
+   - Upload the `.ipynb` files you downloaded from this repository.
+
+3. **Run the Code:**
+   - Once the notebooks are uploaded, you can start running the code cells by clicking on each cell and pressing **Shift + Enter**.
+   - Ensure that all dependencies are installed (as listed in the **Dependencies** section) by running the required installation commands in the first cell of each notebook.
+   
 
 
 ## Dependencies
