@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import re
 
 # Set up API Key (Ensure to store it securely, not hardcoded)
-api_key = "AIzaSyCW7TyrAH-tKnoeZJR6xCnhYGXf6EOFthY"
+api_key = "YOUR_API_KEY"
 if not api_key: 
     st.error("API key not found! Set GOOGLE_API_KEY in your environment variables.")
     st.stop()   
@@ -58,8 +58,8 @@ def fetch_screener_data(company_symbol):
     
     # Login
     payload = {
-        'username': 'tempradhi@gmail.com',
-        'password': 'Radhi@123',
+        'username': 'YOUR SCREENER USERNAME,
+        'password': 'PASSWORD',
         'csrfmiddlewaretoken': csrf_token
     }
     session.post(login_url, data=payload, headers=headers)
