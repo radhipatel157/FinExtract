@@ -13,8 +13,8 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # Screener.in credentials (Use environment variables for security)
-SCREENER_USERNAME = "tempradhi@gmail.com"
-SCREENER_PASSWORD = "Radhi@123"
+SCREENER_USERNAME = "YOUR_USER_NAME"
+SCREENER_PASSWORD = "PASSWORD"
 
 # Function to upload PDFs to Gemini
 def upload_to_gemini(file_obj, mime_type="application/pdf"):
